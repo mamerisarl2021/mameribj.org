@@ -1,0 +1,115 @@
+version: '3'
+
+networks:
+  mcollabora:
+
+services:
+  site:
+    build:
+      context: ./dockerfiles
+      dockerfile: nginx.dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+        - USER=${USER:-ubuntu}
+    container_name: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www/html:delegated
+    depends_on:
+      - php
+      - mysql
+      # - mailhog
+    networks:
+      - mcollabora
+
+  mysql:
+    image: mariadb:10.6
+    container_name: mysql
+    restart: unless-stopped
+    tty: true
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: homestead
+      MYSQL_USER: homestead
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: secret
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - mcollabora
+
+  php:
+    build:
+      context: ./dockerfiles
+      dockerfile: php.dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1001}
+        - USER=${USER:-ubuntu}
+    container_name: php
+    volumes:
+      - ./:/var/www/html:delegated
+    networks:
+      - mcollabora
+
+  composer:
+    build:
+      context: ./dockerfiles
+      dockerfile: composer.dockerfile 
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+        - USER=${USER:-ubuntu}
+    container_name: composer
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
+    depends_on:
+      - php
+    user: ${USER:-ubuntu}
+    entrypoint: ['composer', '--ignore-platform-reqs']
+    networks:
+      - mcollabora
+
+  npm:
+    image: node:13.7
+    container_name: npm
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 3000:3000
+      - 3001:3001
+    working_dir: /var/www/html
+    entrypoint: ['npm']
+    networks:
+      - mcollabora
+
+  artisan:
+    build:
+      context: ./dockerfiles
+      dockerfile: php.dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+        - USER=${USER:-ubuntu}
+    container_name: artisan
+    volumes:
+      - ./:/var/www/html:delegated
+    depends_on:
+      - mysql
+    working_dir: /var/www/html
+    entrypoint: ['php', '/var/www/html/artisan']
+    networks:
+      - mcollabora
+
+  # mailhog:
+  #   image: mailhog/mailhog:latest
+  #   container_name: mailhog
+  #   ports:
+  #     - 1025:1025
+  #     - 8025:8025
+  #   networks:
+  #     - mcollabora

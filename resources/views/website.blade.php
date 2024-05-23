@@ -43,6 +43,15 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXBESQMZWH"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NXBESQMZWH');
+    </script>
 
 
 
