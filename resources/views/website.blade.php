@@ -18,14 +18,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MAMERI - SARL</title>
     
-    <meta name="description" content="Ensemble avec MAMERI SARL nous façonnons l'avenir de la technologie">
+    <meta name="description" content="Ensemble, façonnons l'avenir de la technologie !
+    ">
     <meta name="author" content="Armel Eugène EKE">
     <meta name="keywords" content="Developpement web, developpement informatique, sécurité web, sécurité informatique">
 
     <meta property="og:url" content="https://mameribj.org" />
     <meta property="og:title" content="MAMERI SARL | Accueil" />
-    <meta property="og:description" content="Ensemble avec MAMERI SARL nous façonnons l'avenir de la technologie"/>
-    <meta property="og:image" content="{{asset('assets/img/favicon.png')}}" />
+    <meta property="og:description" content="Ensemble, façonnons l'avenir de la technologie !
+    "/>
+    <meta property="og:image" content="{{asset('assets/img/welcome.png')}}" />
 
     <!-- favicon -->
     <link rel=icon href="{{ asset('assets/img/favicon.png') }}" sizes="20x20" type="image/png">
