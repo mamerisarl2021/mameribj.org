@@ -18,15 +18,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MAMERI - SARL</title>
     
-    <meta name="description" content="Ensemble, façonnons l'avenir de la technologie !
-    ">
+    <meta name="description" content="Nous avons des solutions telles que les solutions de sécurité informatique pour entreprises,solution de gestion immobilière ...">
     <meta name="author" content="Armel Eugène EKE">
-    <meta name="keywords" content="Developpement web, developpement informatique, sécurité web, sécurité informatique">
+    <meta name="keywords" content="Partenaire de solutions numériques en Afrique,Services spécialisés en gestion de documents maritimes,Expertise en solutions cloud et sécurité informatique,Application de signature électronique mobile,APIs intégrables aux applications métier existantes,Plateforme de consignation maritimes,Plateforme de gestion des magasins,Cachet électronique visible conforme aux normes,PKI pour la délivrance des certificats de signature,Automatisation des rappels pour gestion immobilière,Contrôle des accès pour solutions immobilières,Dématérialisation de la gestion financière immobilière.">
 
-    <meta property="og:url" content="https://mameribj.org" />
-    <meta property="og:title" content="MAMERI SARL | Accueil" />
-    <meta property="og:description" content="Ensemble, façonnons l'avenir de la technologie !
-    "/>
+    <meta property="og:url" content="https://mameribj.org/solutions" />
+    <meta property="og:title" content="Solutions | MAMERI SARL" />
+    <meta property="og:description" content="Nous avons des solutions telles que les solutions de sécurité informatique pour entreprises,solution de gestion immobilière ..."/>
     <meta property="og:image" content="{{asset('assets/img/welcome.png')}}" />
 
     <!-- favicon -->
