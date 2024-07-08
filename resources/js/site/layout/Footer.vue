@@ -56,7 +56,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <!-- <div class="col-lg-3">
                         <div class="footer-widget widget">
                             <h4 class="widget-title">Nos solutions récentes</h4>
                             <div class="about_recent_post">
@@ -64,7 +64,6 @@
                                     <img src="assets/img/solutions/esingn.png" alt="post">
                                     <div class="media-body">
                                         <h6><a href="#">Solutions de signature électronique.</a></h6>
-                                        <!-- <span>21 Août 2024</span> -->
                                     </div>
                                 </div>
                                 <div class="media">
@@ -75,7 +74,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

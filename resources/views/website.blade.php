@@ -51,9 +51,6 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
-
-
-
 </head>
 
 <body>
