@@ -52,7 +52,7 @@
                                         </div>
                                     </swiper-slide>
 
-                                <swiper-slide>
+                                <!-- <swiper-slide>
                                     <div class="item">
                                         <img src="assets/img/solutions/esign-1.png" alt="blog">
                                     </div>
@@ -96,7 +96,7 @@
                                     <div class="item">
                                         <img src="assets/img/solutions/esign-9.png" alt="blog">
                                     </div>
-                                </swiper-slide>
+                                </swiper-slide> -->
                             </swiper>
 
                             </div>

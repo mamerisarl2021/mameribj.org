@@ -52,7 +52,7 @@
                                     delay: 5000,
                                     disableOnInteraction: false,
                                 }" :navigation="true" :modules="modules" class="mySwiper">
-                                    <swiper-slide>
+                                    <!-- <swiper-slide>
                                         <div class="item">
                                             <img src="assets/img/solutions/cev-1.png" alt="blog">
                                         </div>
@@ -73,7 +73,7 @@
                                     <div class="item">
                                         <img src="assets/img/solutions/cev-4.png" alt="blog">
                                     </div>
-                                </swiper-slide>
+                                </swiper-slide> -->
                                 <swiper-slide>
                                     <div class="item">
                                         <img src="assets/img/solutions/cev-7.png" alt="blog">
