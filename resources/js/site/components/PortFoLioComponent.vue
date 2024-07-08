@@ -13,7 +13,7 @@
                 delay: 10000,
                 disableOnInteraction: false,
             }" :navigation="true" :modules="modules" class="mySwiper">
-                <swiper-slide>
+                <!-- <swiper-slide>
                     <div class="row">
                         <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
                             <img src="assets/img/solutions/cev-r.png" alt="img">
@@ -54,8 +54,8 @@
                             </div>
                         </div>
                     </div>
-                </swiper-slide>
-                <swiper-slide>
+                </swiper-slide> -->
+                <!-- <swiper-slide>
                     <div class="row">
                         <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
                             <img src="assets/img/solutions/esingn.png" alt="img">
@@ -95,8 +95,8 @@
                             </div>
                         </div>
                     </div>
-                </swiper-slide>
-                <swiper-slide>
+                </swiper-slide> -->
+                <!-- <swiper-slide>
                     <div class="row">
                         <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
                             <img src="assets/img/solutions/collabora-p.png" alt="img">
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                </swiper-slide>
+                </swiper-slide> -->
                 <swiper-slide>
                     <div class="row">
                         <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
