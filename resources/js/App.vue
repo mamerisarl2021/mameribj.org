@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Header from './site/layout/Header.vue'
+import Header from './site/layout/header.vue'
 import Footer from './site/layout/Footer.vue'
 
 export default {

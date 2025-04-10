@@ -6,7 +6,7 @@
                 <div class="col-lg-4">
                     <div class="work-processing-details">
                         <div class="section-title style-four">
-                            <h1 class="counting-number">5</h1>
+                            <h1 class="counting-number">3</h1>
                             <h2 class="title">
                                 Plateforme de <span>Consignation maritimes. </span>
                             </h2>

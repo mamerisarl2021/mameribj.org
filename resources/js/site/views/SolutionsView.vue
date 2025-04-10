@@ -1,7 +1,9 @@
 <template>
-
     <!-- breadcrumb area start -->
-    <div class="breadcrumb-area" style="background-image:url(assets/img/page-title-bg.png);">
+    <div
+        class="breadcrumb-area"
+        style="background-image: url(assets/img/page-title-bg.png)"
+    >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -24,67 +26,61 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-10">
                     <div class="section-title text-center">
-                        <h2 class="title">Les solutions que nous mettons <span>à votre disposition</span></h2>
+                        <h2 class="title">
+                            Les solutions que nous mettons
+                            <span>à votre disposition</span>
+                        </h2>
                         <p>
-                            En tant que fournisseur de services informatiques, nous sommes déterminés à vous
-                            offrir des solutions technologiques innovantes et fiables pour répondre à tous vos besoins
-                            en matière de numérique.
+                            En tant que fournisseur de services informatiques,
+                            nous sommes déterminés à vous offrir des solutions
+                            technologiques innovantes et fiables pour répondre à
+                            tous vos besoins en matière de numérique.
                         </p>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <!-- sbst service area end -->
 
-
-
-    <EsignatureSolutionsComponent/>
-    <McollaborraEsignatureSolutionsComponent/>
-    <CevComponent/>
-    <GestionImmobiliereComponent/>
-    <ConsignationMaritimeComponent/>
-
-
-
+    <!-- <EsignatureSolutionsComponent/> -->
+    <McollaborraEsignatureSolutionsComponent />
+    <!-- <CevComponent/> -->
+    <GestionImmobiliereComponent />
+    <ConsignationMaritimeComponent />
 </template>
 
-
 <script>
-import { onMounted } from 'vue';
+import { onMounted } from "vue";
 
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import EsignatureSolutionsComponent from "./../components/services/EsignatureSolutionsComponent.vue";
-import McollaborraEsignatureSolutionsComponent from '../components/services/McollaborraEsignatureSolutionsComponent.vue';
-import ConsignationMaritimeComponent from '../components/services/ConsignationMaritimeComponent.vue';
-import GestionImmobiliereComponent from '../components/services/GestionImmobiliereComponent.vue';
-import CevComponent from '../components/services/CevComponent.vue';
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+// import EsignatureSolutionsComponent from "./../components/services/EsignatureSolutionsComponent.vue";
+import McollaborraEsignatureSolutionsComponent from "../components/services/McollaborraEsignatureSolutionsComponent.vue";
+import ConsignationMaritimeComponent from "../components/services/ConsignationMaritimeComponent.vue";
+import GestionImmobiliereComponent from "../components/services/GestionImmobiliereComponent.vue";
+// import CevComponent from '../components/services/CevComponent.vue';
 
 export default {
-    name: 'Banner',
+    name: "Banner",
     components: {
         Swiper,
         SwiperSlide,
-        EsignatureSolutionsComponent,
+        // EsignatureSolutionsComponent,
         McollaborraEsignatureSolutionsComponent,
         ConsignationMaritimeComponent,
         GestionImmobiliereComponent,
-        CevComponent,
+        // CevComponent,
     },
 
     setup() {
-        onMounted(() => {
-
-        })
+        onMounted(() => {});
 
         return {
             modules: [Autoplay, Pagination, Navigation],
-
-        }
-    }
-}
+        };
+    },
+};
 </script>

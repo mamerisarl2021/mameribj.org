@@ -56,31 +56,12 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-3">
-                        <div class="footer-widget widget">
-                            <h4 class="widget-title">Nos solutions récentes</h4>
-                            <div class="about_recent_post">
-                                <div class="media">
-                                    <img src="assets/img/solutions/esingn.png" alt="post">
-                                    <div class="media-body">
-                                        <h6><a href="#">Solutions de signature électronique.</a></h6>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <img src="assets/img/solutions/cev-r.png" alt="post">
-                                    <div class="media-body">
-                                        <h6><a href="#">Le cachet electronique visible</a></h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
         <div class="copyright-inner">
             <div class="copyright-text">
-                &copy; MAMERI 2024 Tout droits réservés, Alimenté <a href="https://mameribj.org/"
+                &copy; MAMERI 2025 Tout droits réservés, Alimenté <a href="https://mameribj.org/"
                     target="_blank"> par <span>MAMERI SARL.</span></a>
             </div>
         </div>

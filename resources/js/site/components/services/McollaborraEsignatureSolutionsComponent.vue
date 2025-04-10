@@ -6,7 +6,7 @@
                 <div class="col-lg-4">
                     <div class="work-processing-details">
                         <div class="section-title style-four">
-                            <h1 class="counting-number">2</h1>
+                            <h1 class="counting-number">1</h1>
                             <h2 class="title">
                                 Plateforme de <span> collaboration</span>
                             </h2>
